@@ -37,7 +37,7 @@ The system provides a web frontend served by a Flask backend. The backend handle
 **Frontend Details:**
 - `index.html` provides a simple chat interface that communicates with `/chat` endpoint.
 
-## Running with Docker
+**Running with Docker:**
 
 1. Build the Docker image:
 
@@ -66,6 +66,9 @@ http://localhost:5000/
 1. **Retrieve medication by name**
    - User: "יש לכם אדוויל?"
    - Agent: מחזיר - "כן, יש לנו אדוויל במלאי, 780 יחידות".
+  
+<img width="700" height="519" alt="צילום מסך 2025-12-31 141941" src="https://github.com/user-attachments/assets/af351195-a77c-425a-97c8-e4298c9638d6" />
+<img width="600" height="505" alt="צילום מסך 2025-12-31 135910" src="https://github.com/user-attachments/assets/25fb338f-f544-4ad0-a7d2-e6e391d7cbc8" />
 
 2. **Check user prescriptions**
    - User: "Show my prescriptions for user_001"
@@ -73,17 +76,16 @@ http://localhost:5000/
      for example:
       "Here are the active prescriptions for David Cohen (user_001): 
       - Medication: Amoxicillin - Dosage: 500mg capsules - Quantity: 30 - Instructions: Take one capsule every 8 hours - Prescribing doctor: Dr. Sarah Levi - Issue date:             2025-12-15 - Expiry date: 2026-03-15 - Refills remaining: 2 Allergies on file: None known If you need anything else related to this prescription, let me know."
+    
+<img width="700" height="473" alt="צילום מסך 2025-12-31 135846" src="https://github.com/user-attachments/assets/b25a0485-168d-43c2-a455-9a50a1f7cb8d" />
+<img width="700" height="454" alt="צילום מסך 2025-12-31 142202" src="https://github.com/user-attachments/assets/60123a07-5b56-4fb9-9d7c-1b8450696be4" />
 
 3. **Search medications by ingredient**
    - User: "Which medications contain ibuprofen?"
    - Agent: Returns a list of medications with ibuprofen as an active ingredient.
 
-<img width="1335" height="519" alt="צילום מסך 2025-12-31 141941" src="https://github.com/user-attachments/assets/af351195-a77c-425a-97c8-e4298c9638d6" />
-<img width="1150" height="505" alt="צילום מסך 2025-12-31 135910" src="https://github.com/user-attachments/assets/25fb338f-f544-4ad0-a7d2-e6e391d7cbc8" />
-<img width="1302" height="473" alt="צילום מסך 2025-12-31 135846" src="https://github.com/user-attachments/assets/b25a0485-168d-43c2-a455-9a50a1f7cb8d" />
-<img width="1301" height="454" alt="צילום מסך 2025-12-31 142202" src="https://github.com/user-attachments/assets/60123a07-5b56-4fb9-9d7c-1b8450696be4" />
-<img width="1285" height="518" alt="צילום מסך 2025-12-31 142157" src="https://github.com/user-attachments/assets/d3234ad2-148a-4553-81d5-82bb53571772" />
-<img width="1302" height="475" alt="צילום מסך 2025-12-31 142102" src="https://github.com/user-attachments/assets/155ac046-8892-4878-a00a-33462cf7db40" />
+<img width="680" height="518" alt="צילום מסך 2025-12-31 142157" src="https://github.com/user-attachments/assets/d3234ad2-148a-4553-81d5-82bb53571772" />
+<img width="700" height="475" alt="צילום מסך 2025-12-31 142102" src="https://github.com/user-attachments/assets/155ac046-8892-4878-a00a-33462cf7db40" />
 
 
 ## Evaluation Plan
