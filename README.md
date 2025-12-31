@@ -67,26 +67,23 @@ http://localhost:5000/
    - User: "יש לכם אדוויל?"
    - Agent: מחזיר - "כן, יש לנו אדוויל במלאי, 780 יחידות".
   
-<img width="700" height="767" alt="צילום מסך 2025-12-31 134216" src="https://github.com/user-attachments/assets/8ffaff20-21de-4c62-8edc-06f69bfd6b2d" />
+<img width="700" height="350" alt="צילום מסך 2025-12-31 134216" src="https://github.com/user-attachments/assets/8ffaff20-21de-4c62-8edc-06f69bfd6b2d" />
 
 
 2. **Check user prescriptions**
    - User: "Show my prescriptions for user_001"
    - Agent: Lists all active prescriptions, expiry dates, and dosage instructions.
-     for example:
-      "Here are the active prescriptions for David Cohen (user_001): 
-      - Medication: Amoxicillin - Dosage: 500mg capsules - Quantity: 30 - Instructions: Take one capsule every 8 hours - Prescribing doctor: Dr. Sarah Levi - Issue date:             2025-12-15 - Expiry date: 2026-03-15 - Refills remaining: 2 Allergies on file: None known If you need anything else related to this prescription, let me know."
 
-<img width="700" height="473" alt="צילום מסך 2025-12-31 135846" src="https://github.com/user-attachments/assets/2c3e865f-b801-4240-bbbf-3253e3bc9777" />
-<img width="680" height="505" alt="צילום מסך 2025-12-31 135910" src="https://github.com/user-attachments/assets/30e4289d-43aa-4c9e-b447-a188c19953a2" />
+<img width="700" height="200" alt="צילום מסך 2025-12-31 135846" src="https://github.com/user-attachments/assets/2c3e865f-b801-4240-bbbf-3253e3bc9777" />
+<img width="680" height="250" alt="צילום מסך 2025-12-31 135910" src="https://github.com/user-attachments/assets/30e4289d-43aa-4c9e-b447-a188c19953a2" />
 
 
 3. **Search medications by ingredient**
    - User: "Which medications contain ibuprofen?"
    - Agent: Returns a list of medications with ibuprofen as an active ingredient.
 
-<img width="700" height="518" alt="צילום מסך 2025-12-31 142157" src="https://github.com/user-attachments/assets/59fa57e3-f31c-475b-b667-29fbafa39e19" />
-<img width="700" height="454" alt="צילום מסך 2025-12-31 142202" src="https://github.com/user-attachments/assets/9488bb4a-db78-4e66-875a-4f73eccb5442" />
+<img width="700" height="250" alt="צילום מסך 2025-12-31 142157" src="https://github.com/user-attachments/assets/59fa57e3-f31c-475b-b667-29fbafa39e19" />
+<img width="700" height="220" alt="צילום מסך 2025-12-31 142202" src="https://github.com/user-attachments/assets/9488bb4a-db78-4e66-875a-4f73eccb5442" />
 
 
 ## Evaluation Plan
